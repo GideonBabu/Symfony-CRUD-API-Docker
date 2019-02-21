@@ -1,0 +1,48 @@
+This file has the few information about and project and instructions on how to run the project.
+
+Project Title:
+Customer app with basic information to add, view, update and delete.
+
+Project Scope:
+To create a REST API for CRUD operation using symfony components.
+
+Instruction to use:
+Open the terminal and go to root folder of the application where this file exists. 
+
+Steps:
+
+Run command: docker-compose up --build 
+
+once this command run over, we can use postman to test the API's for crud operations. Here is the collection URL:
+https://www.getpostman.com/collections/f2479ac08249c393da48
+
+Alternatively, we can use CURL command as well:
+curl -i localhost/public/index.php/users
+
+Here is the list of APIs:
+
+GET: http://localhost/public/index.php/users
+POST: http://localhost/public/index.php/users
+PUT: http://localhost/public/index.php/users/1
+DELETE: http://localhost/public/index.php/users/1
+
+Here is the some sample JSON input for post and put calls:
+
+{
+	"first_name" : "Gidi",
+	"last_name" : "Bob",
+	"email" : "gidiBob@gmail.com",
+	"mobile" : "9094114574",
+	"street" : "Walton Commons",
+	"city": "Madison",
+	"country": "USA",
+	"zip" : "53128"
+}
+
+Support:
+Please feel free to contact me at gideonvbabu@gmail.com for any queries or support to run the application.
+
+
+
+
+
